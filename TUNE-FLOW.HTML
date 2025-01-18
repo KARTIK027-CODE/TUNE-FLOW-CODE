@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="spofityf.css">
+
+
+</head>
+<body>
+    <header class="header">
+        <h1 class="project-name">TuneFlow</h1>
+        <nav class="navbar">
+            <div class="nav-item">
+                <button class="nav-button">☰ Menu</button>
+            </div>
+            <div class="nav-item">
+  
+
+                <input type="text" placeholder="Search..." class="search-bar">
+         
+                
+            
+            </div>
+            <div class="nav-item">
+                <button class="nav-button">❤️ Favorites</button>
+            </div>
+          
+            <div class="nav-item">
+                <button class="nav-button">Login / Sign Up</button>
+            </div>
+        </nav>
+    </header>
+    
+
+
+    <div class="music-player">
+        <h1>My Music Player</h1>
+        <div class="song-list">
+            <button onclick="playSong(0)">Song 1: Energy</button>
+            <button onclick="playSong(1)">Song 2: Calm Vibes</button>
+            <button onclick="playSong(2)">Song 3: Sunset</button>
+        </div>
+        <div class="controls">
+            <button onclick="playAudio()">▶</button>
+            <button onclick="pauseAudio()">⏸</button>
+        </div>
+        <audio id="audio"></audio>
+    </div>
+    <script src="spofity.js"></script>
+</body>
+</html>
