@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background: #1db954;
+    color: white;
+    padding: 15px 0;
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 1000; 
+}
+
+.project-name {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    color: white;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    margin-top: 10px;
+}
+
+.nav-item {
+    margin: 0 10px;
+}
+
+.search-bar {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.nav-button {
+    background-color: #1db954;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.nav-button:hover {
+    background-color: #1ed760;
+}
+
+
+body {
+    padding-top: 60px; 
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #1db954, #121212);
+    color: white;
+}
+
+.music-player {
+    width: 90%;
+    max-width: 600px;
+    background: #222;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+    text-align: center;
+
+}
+
+.music-player h1 {
+    margin-bottom: 20px;
+}
+
+.song-list {
+    margin: 20px 0;
+}
+
+.song-list button {
+    background: #1db954;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.song-list button:hover {
+    background: #1ed760;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+.controls button {
+    background: #1db954;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.controls button:hover {
+    background: #1ed760;
+    border: 2px solid white;
+}
+
+audio {
+    display: none;
+}
